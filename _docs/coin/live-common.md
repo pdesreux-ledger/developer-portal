@@ -1122,7 +1122,7 @@ It is designed for the end user frontend interface and is agnostic of the way it
 
 <!-- ------------- Image ------------- -->
 <!-- --------------------------------- -->
-![account bridge flow](../../../uploads/images/CI/account-bridge-flow.png)
+![account bridge flow](../images/account-bridge-flow.png)
 
 #### Receive
 
@@ -1847,7 +1847,7 @@ It is responsible for scanning accounts for a crypto family, but also preloading
 
 <!-- ------------- Image ------------- -->
 <!-- --------------------------------- -->
-![currency bridge flow](../../../uploads/images/CI/currency-bridge-flow.png)
+![currency bridge flow](../images/currency-bridge-flow.png)
 
 #### Scanning accounts
 

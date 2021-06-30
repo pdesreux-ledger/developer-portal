@@ -34,14 +34,14 @@ layout: doc_ci
 
 | **Terminal 1** | **Terminal 2** |
 | -------------- | -------------- |
-| From `ledger-live-mobile` directory:<br>`$ yalc add @ledgerhq/live-common` <br> `$ yarn` <br> `$ yarn start` <br> Expected output: <br> <video controls muted preload='none' poster='../../../uploads/images/CI/2548924630/terminal1-poster.png'><source src="../../../uploads/images/CI/2548924630/Terminal1.mp4" type='video/mp4'></video>  | `$ ledger-live proxy` <br>  Expected output: <br> <video controls muted preload='none' poster='../../../uploads/images/CI/2548924630/terminal2-poster.png'><source src="../../../uploads/images/CI/2548924630/Terminal2.mp4" type="video/mp4"></video> <br> At this stage, an IP address is provided.<br> It will be used at a further stage to pair the Nano with the mobile app.|
+| From `ledger-live-mobile` directory:<br>`$ yalc add @ledgerhq/live-common` <br> `$ yarn` <br> `$ yarn start` <br> Expected output: <br> <video controls muted preload='none' poster='../images/test-emulated-mobile/terminal1-poster.png'><source src="../images/test-emulated-mobile/Terminal1.mp4" type='video/mp4'></video>  | `$ ledger-live proxy` <br>  Expected output: <br> <video controls muted preload='none' poster='../images/test-emulated-mobile/terminal2-poster.png'><source src="../images/test-emulated-mobile/Terminal2.mp4" type="video/mp4"></video> <br> At this stage, an IP address is provided.<br> It will be used at a further stage to pair the Nano with the mobile app.|
 
 
 ## Android
 
 | **Terminal 3** | **Terminal 4** |
 | -------------- | -------------- |
-| `$ adb start-server` <br> `$ emulator -avd <name of the device>` <br> `# e.g. emulator -avd Pixel_XL_API_30` <br> Expected output: <br>  <video controls muted preload='none' poster='../../../uploads/images/CI/2548924630/terminal3-poster.png'><source src="../../../uploads/images/CI/2548924630/Terminal3.mp4" type="video/mp4"></video>  <br> At this stage, the emulator starts. | `$ yarn run android` <br>  Expected output: <br>  <video controls muted preload='none' poster='../../../uploads/images/CI/2548924630/terminal4-poster.png'><source src="../../../uploads/images/CI/2548924630/Terminal4.mp4" type="video/mp4"></video>  <br> At this stage, the Mobile app starts. <br> _Note: if the app is blank, just relaunch it._|
+| `$ adb start-server` <br> `$ emulator -avd <name of the device>` <br> `# e.g. emulator -avd Pixel_XL_API_30` <br> Expected output: <br>  <video controls muted preload='none' poster='../images/test-emulated-mobile/terminal3-poster.png'><source src="../images/test-emulated-mobile/Terminal3.mp4" type="video/mp4"></video>  <br> At this stage, the emulator starts. | `$ yarn run android` <br>  Expected output: <br>  <video controls muted preload='none' poster='../images/test-emulated-mobile/terminal4-poster.png'><source src="../images/test-emulated-mobile/Terminal4.mp4" type="video/mp4"></video>  <br> At this stage, the Mobile app starts. <br> _Note: if the app is blank, just relaunch it._|
 
 Then, pair the Nano using the IP address provided in the preliminary steps
 
@@ -50,7 +50,7 @@ Then, pair the Nano using the IP address provided in the preliminary steps
 
 | **Terminal 3** |
 | -------------- |
-| `$ yarn run ios` <br> Expected output: <br>  <video controls muted  preload='none' poster='../../../uploads/images/CI/2548924630/terminal3-IOS-poster.png'><source src="../../../uploads/images/CI/2548924630/Terminal3-IOS.mp4" type='video/mp4'></video>  <br> At this stage, both the emulator and the Mobile app start.|
+| `$ yarn run ios` <br> Expected output: <br>  <video controls muted  preload='none' poster='../images/test-emulated-mobile/terminal3-IOS-poster.png'><source src="../images/test-emulated-mobile/Terminal3-IOS.mp4" type='video/mp4'></video>  <br> At this stage, both the emulator and the Mobile app start.|
 
 Then, pair the Nano using the IP address provided in the preliminary steps
 

@@ -33,19 +33,19 @@ This page explains how to install the Ledger Live dev app for iOS on macOS.
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="680" src="../../../uploads/images/CI/2177138906/2175697305.png" ></div>
+<img width="680" src="../images/2177138906/2175697305.png" ></div>
 <!-- --------------------------------- -->
 
 Here, you can also check that you're using the correct toolchain and that you have an iOS simulator installed. It is advisable to have multiple simulators.
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="680" src="../../../uploads/images/CI/2177138906/2175730132.png" ></div>
+<img width="680" src="../images/2177138906/2175730132.png" ></div>
 <!-- --------------------------------- -->
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="680" src="../../../uploads/images/CI/2177138906/2177171698.png" ></div>
+<img width="680" src="../images/2177138906/2177171698.png" ></div>
 <!-- --------------------------------- -->
 
 
@@ -80,7 +80,7 @@ This command may fail. Like this, for example.
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="680" src="../../../uploads/images/CI/2177138906/2177171709.png" ></div>
+<img width="680" src="../images/2177138906/2177171709.png" ></div>
 <!-- --------------------------------- -->
 
 One solution is to run:
@@ -101,7 +101,7 @@ Wait until you see a message indicating "Loading dependency graph, done."
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="680" src="../../../uploads/images/CI/2177138906/2177204490.png" ></div>
+<img width="680" src="../images/2177138906/2177204490.png" ></div>
 <!-- --------------------------------- -->
 
 Return to the first terminal, and run
@@ -116,5 +116,5 @@ Then eventually, an iOS simulator will open, and after some time again, you'll s
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="340" src="../../../uploads/images/CI/2177138906/2177237212.png" ></div>
+<img width="340" src="../images/2177138906/2177237212.png" ></div>
 <!-- --------------------------------- -->

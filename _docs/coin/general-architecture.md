@@ -17,12 +17,12 @@ layout: doc_ci
 ### B2C Components
 
 <!-- ------------- Image ------------- -->
-![B2C-components](../../../uploads/images/CI/B2C-components.png)
+![B2C-components](../images/B2C-components.png)
 <!-- --------------------------------- -->
 Ledger gives its user the ability to self-custody their assets on their Ledger device. This offers some undoubted advantages, but since the hardware wallet acts as a signing box, it defers most of the technical complexity to the **companion application**.
 
 <!-- ------------- Image ------------- -->
-![app_architecture](../../../uploads/images/CI/app_architecture.png)
+![app_architecture](../images/app_architecture.png)
 <!-- --------------------------------- -->
 
 
@@ -35,7 +35,7 @@ In the case of Ledger Live, and for performance reason, a third layer is handlin
 [//]: Update image : Replace Lib-Core with JS
 
 <!-- ------------- Image ------------- -->
-![global-architecture](../../../uploads/images/CI/global-architecture.png)
+![global-architecture](../images/global-architecture.png)
 <!-- --------------------------------- -->
 
 
@@ -158,7 +158,7 @@ Ledger Live is an hybrid desktop application built using Electron, React, Redux,
 ### Ledger Live Desktop
 
 <!-- ------------- Image ------------- -->
-<img width="255" src="../../../uploads/images/CI/lld.png" style="float:right">
+<img width="255" src="../images/lld.png" style="float:right">
 <!-- --------------------------------- -->
 
 Ledger Live Desktop is the computer app for Ledger hardware wallets. It allows users to manage their crypto assets securely, such as Bitcoin, Ethereum, XRP and many others.
@@ -171,7 +171,7 @@ It is compatible with
 ### Ledger Live Mobile
 
 <!-- ------------- Image ------------- -->
-<img align="left" width="109" src="../../../uploads/images/CI/llm.png">
+<img align="left" width="109" src="../images/llm.png">
 <!-- --------------------------------- -->
 
 Ledger Live is a mobile companion app for Ledger hardware wallets. It allows users to manage their crypto assets securely, such as Bitcoin, Ethereum, XRP and many others.

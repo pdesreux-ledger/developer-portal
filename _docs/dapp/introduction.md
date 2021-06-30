@@ -102,7 +102,7 @@ To solve this problem with a scalable approach, Ledger designed the concept of _
 
 Ledger designed and implemented the first Ethereum plugin : Paraswap.
 
-<video controls muted preload='none' poster='../images/paraswap.png' ><source src="../../../uploads/videos/DA/paraswap.mp4" type='video/mp4'></video><br>
+<video controls muted preload='none' poster='../images/paraswap.png' ><source src="../videos/paraswap.mp4" type='video/mp4'></video><br>
 
 You’ll find the relevant documentation on how to make your own plugin [here](https://github.com/LedgerHQ/app-ethereum/blob/named-external-plugins/doc/ethapp_plugins.asc).
 

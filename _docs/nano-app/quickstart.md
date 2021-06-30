@@ -35,7 +35,7 @@ source setup-env
 
 The setup take a couple of minutes to run. Here is a video to show what is happening.
 
-<video controls muted ><source src="../../../uploads/videos/nano-app/nano-setup.mp4" type='video/mp4'></video><br>
+<video controls muted ><source src="../videos/nano-setup.mp4" type='video/mp4'></video><br>
 ## 2 - Get the sample Boilerplate app
 
 Applications that support multiple BOLOS devices are typically contained within a single repository, so you can use the same repository to build an app for different Ledger devices. Just make sure that you've set `BOLOS_SDK` to the appropriate SDK for the device you're using. The Makefiles used by our apps use the contents of the SDK to determine which device you're using.
@@ -58,7 +58,7 @@ make load
 This video shows the loading and the public key verification (00:25") and the application hash verification (00:44").
 It ends showing the Boilerplate app is correctly installed on the Nano.
 
-<video controls muted ><source src="../../../uploads/videos/nano-app/load.mp4" type='video/mp4'></video><br>
+<video controls muted ><source src="../videos/load.mp4" type='video/mp4'></video><br>
 
 ## 4 - Deleting the app from the Nano
 
@@ -68,7 +68,7 @@ make delete
 ```
 This video shows the app being unloaded, the public key verification (00:07") and the identifer hash (00:15").
 The app is completely uninstalled at 00:19".
-<video controls muted ><source src="../../../uploads/videos/nano-app/delete.mp4" type='video/mp4'></video><br>
+<video controls muted ><source src="../videos/delete.mp4" type='video/mp4'></video><br>
 
 ## Moving on
 

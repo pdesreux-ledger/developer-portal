@@ -53,7 +53,7 @@ The expected output is:
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="680" src="../../../uploads/images/CI/2177138906/2193555513.png" /></div>
+<img width="680" src="../images/2177138906/2193555513.png" /></div>
 <!-- --------------------------------- -->
 
 - Open the LL [DEV] application on the simulator
@@ -63,12 +63,12 @@ The expected output is:
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="340" src="../../../uploads/images/CI/2177138906/2193227841.png" /></div>
+<img width="340" src="../images/2177138906/2193227841.png" /></div>
 <!-- --------------------------------- -->
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="340" src="../../../uploads/images/CI/2177138906/2193489982.png" /></div>
+<img width="340" src="../images/2177138906/2193489982.png" /></div>
 <!-- --------------------------------- -->
 
 - Go to "Debug http transport" and copy-paste the IP address given
@@ -82,7 +82,7 @@ Congratulations! You have successfully connected your device
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="340" src="../../../uploads/images/CI/2177138906/2193195145.png" /></div>
+<img width="340" src="../images/2177138906/2193195145.png" /></div>
 <!-- --------------------------------- -->
 
 ## Testing on the Nano
@@ -95,7 +95,7 @@ You may want to change the default scheme to either build a debug or a release v
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="720" src="../../../uploads/images/CI/2177138906/2193129601.png" /></div>
+<img width="720" src="../images/2177138906/2193129601.png" /></div>
 <!-- --------------------------------- -->
 
 - Connect your device to your mac
@@ -107,7 +107,7 @@ You can try to launch a build. If it fails because of a problem with a certifica
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="720" src="../../../uploads/images/CI/2177138906/2193293401.png" /></div>
+<img width="720" src="../images/2177138906/2193293401.png" /></div>
 <!-- --------------------------------- -->
 
 - Try to build it a second time. It works!
@@ -117,7 +117,7 @@ After the build is complete you should have this window displayed:
 
 <!-- ------------- Image ------------- -->
 <div style="text-align:center">
-<img width="720" src="../../../uploads/images/CI/2177138906/2193064065.png" /></div>
+<img width="720" src="../images/2177138906/2193064065.png" /></div>
 <!-- --------------------------------- -->
 
 - Click on Distribute App → Development → Next → Automatically manage signing

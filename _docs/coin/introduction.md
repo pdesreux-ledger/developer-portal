@@ -16,7 +16,7 @@ layout: doc_ci
 ***
 
 <!-- ------------- Image ------------- -->
-![](../../../uploads/images/CI/code-blocks.png)
+![](../images/code-blocks.png)
 <!-- --------------------------------- -->
 
 
