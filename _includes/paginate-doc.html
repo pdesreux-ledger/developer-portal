@@ -1,17 +1,15 @@
 {% assign url = page.url | split: "/" %}
 {% assign category = url[2] %}
 
-{% if category == "NA" %}
+{% if category == "nano-app" %}
   {% assign docs = site.data.navigation_docs_na_linear | map: 'docs' | join: ',' | split: ',' %}
-{% elsif category == "CI"  %}
+{% elsif category == "coin"  %}
   {% assign docs = site.data.navigation_docs_ci | map: 'docs' | join: ',' | split: ',' %}
-{% elsif category == "DA"  %}
+{% elsif category == "dapp"  %}
   {% assign docs = site.data.navigation_docs_da | map: 'docs' | join: ',' | split: ',' %}
-{% elsif category == "SP"  %}
+{% elsif category == "speculos"  %}
   {% assign docs = site.data.navigation_docs_sp | map: 'docs' | join: ',' | split: ',' %}
-{% elsif category == "PL"  %}
-  {% assign docs = site.data.navigation_docs_pl | map: 'docs' | join: ',' | split: ',' %}
-{% elsif category == "ET"  %}
+{% elsif category == "token"  %}
   {% assign docs = site.data.navigation_docs_et | map: 'docs' | join: ',' | split: ',' %}
 {% endif %}
 

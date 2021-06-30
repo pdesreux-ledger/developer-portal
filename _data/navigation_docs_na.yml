@@ -1,62 +1,57 @@
 - title: []
   docs:
-  - NA/start_here
+  - nano-app/introduction
 
 - title: Getting Started
   docs:
-  - NA/u_quickstart
-  - NA/u_deepdive
+  - nano-app/quickstart
+  - nano-app/deepdive
 
 - title: Security Requirements
   docs:
-  - NA/a_security_guidelines
+  - nano-app/security-requirements
 
 - title: Documentation Requirements
   docs:
-  - NA/a_documentation_requirements
+  - nano-app/documentation-requirements
 
 - title: Functional Requirements
   subfolderitems:
     - title: Display
       docs:
-      - NA/u_display_management
-      - NA/u_advanced_display_management
-      - NA/u_low_level_display_management
+      - nano-app/display-management
+      - nano-app/advanced-display-management
+      - nano-app/low-level-display-management
     - title: Memory
       docs:
-      - NA/u_memory
-      - NA/u_pic
-      - NA/u_alignment
+      - nano-app/persistent-storage
+      - nano-app/position-independent-code
+      - nano-app/memory-alignment
     - title: I/O
       docs:
-      - NA/u_syscalls
-      - NA/u_application_structure
+      - nano-app/interaction-bolos-apps
+      - nano-app/application-structure
 
 - title: Debug
   docs:
-  - NA/u_troubleshooting
-  - NA/u_debugging
+  - nano-app/troubleshooting
+  - nano-app/debug
 
 - title: Publishing
   docs:
-  - NA/a_publishing_an_app
-
-#- title: Tools
-  #docs:
-  #- NA/u_speculos
-  #- NA/a_external_docs
+  - nano-app/publish-app
 
 - title: Appendix A - Personal security devices
   docs:
-  - NA/bg_personal_security_devices
-  - NA/bg_master_seed
-  - NA/bg_hd_keys
-  - NA/bg_hd_use_cases
-  - NA/bg_application_isolation
+  - nano-app/psd-introduction
+  - nano-app/psd-masterseed
+  - nano-app/psd-keys
+  - nano-app/psd-applications
+  - nano-app/psd-application-isolation
 
 - title: Appendix B - The BOLOS Platform
   docs:
-  - NA/b_overview
-  - NA/b_features
-  - NA/b_hardware_architecture
-  - NA/b_application_environment
+  - nano-app/bolos-introduction
+  - nano-app/bolos-features
+  - nano-app/bolos-hardware-architecture
+  - nano-app/bolos-application-environment

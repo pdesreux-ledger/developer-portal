@@ -1,26 +1,26 @@
 - title:
   docs:
-  - SP/index
+  - speculos/introduction
 
 - title: Installation
   docs:
-  - SP/start_here
-  - SP/i_build
-  - SP/i_wsl
+  - speculos/start-here
+  - speculos/linux-installation
+  - speculos/windows-installation
 
 - title: User
   docs:
-  - SP/u_usage
-  - SP/u_docker
-  - SP/u_clients
-  - SP/u_debug
-  - SP/u_automation
-  - SP/u_semihosting
+  - speculos/usage
+  - speculos/docker-image
+  - speculos/send-apdu
+  - speculos/debug
+  - speculos/automation
+  - speculos/semihosting
 
 - title: Developer Documentation
   docs:
-  - SP/d_getting_started
-  - SP/d_tests
-  - SP/d_ci
-  - SP/d_internals
+  - speculos/clang-format
+  - speculos/tests
+  - speculos/continuous-integration
+  - speculos/internals
 

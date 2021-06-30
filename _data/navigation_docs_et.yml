@@ -1,5 +1,5 @@
 - title: Contents
   docs:
-  - ET/01_readme
-  - ET/02_erc20_tokens
-  - ET/03_other_tokens
+  - token/introduction
+  - token/erc20
+  - token/other-tokens

@@ -1,16 +1,16 @@
 # Mobile menu navigation links
 
 - title: Nano App
-  url: /docs/NA/start_here
+  url: /docs/nano-app/introduction
 
 - title: Coin Integration
-  url: /docs/CI/10_general_process
+  url: /docs/coin/general-process
 
 - title: Token Integration
-  url: /docs/ET/01_readme
+  url: /docs/token/introduction
 
 - title: DApp Integration
-  url: /docs/DA/01_readme
+  url: /docs/dapp/introduction
 
 - title: Contact
   url: /contact

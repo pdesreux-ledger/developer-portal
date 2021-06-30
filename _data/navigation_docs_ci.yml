@@ -1,32 +1,32 @@
 - title: Getting Started
   docs:
-  - CI/10_general_process
-  - CI/11_modules
+  - coin/general-process
+  - coin/general-architecture
 
 - title: Prerequisites
   docs:
-  - CI/20_live_prerequisites
+  - coin/prerequisites
 
 - title: Tools
   docs:
-  - CI/30_tools
+  - coin/ledger-live-cli
 
 - title: Coding
   docs:
-  - CI/40_live_coin_integration
-  - CI/41_live_cryptoassets
-  - CI/42_live_app_bindings
-  - CI/43_live_common
-  - CI/44_live_frontend
+  - coin/introduction
+  - coin/cryptoassets-library
+  - coin/js-bindings
+  - coin/live-common
+  - coin/desktop-mobile
 
 - title: Testing
   docs:
-  - CI/50_live_tests
-  - CI/51_live_on_desktop
-  - CI/52_live_install_ios
-  - CI/53_live_install_android
-  - CI/54_live_run_on_ios_android
-  - CI/55_live_gen_cli
-  - CI/56_live_spe_cli
-  - CI/57_live_tests_android_ios
-  - CI/58_live_common_test_framework
+  - coin/tests
+  - coin/run-ledger-live
+  - coin/build-ios-devapp
+  - coin/build-android-devapp
+  - coin/run-ios-android-devapp
+  - coin/general-cli-checklist
+  - coin/specific-cli-checklist
+  - coin/test-emulated-mobile
+  - coin/bridge-test
