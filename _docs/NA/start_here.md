@@ -29,7 +29,9 @@ You can skip the first paragraph and go to [Things to do](#things-to-do).
 
 ![Development phases](../images/nanoappdevphases.png)
 
-
+To develop a Nano Application you will need to:
+- Use Linux or a VM with Linux installed
+- Set up the BOLOS environment (consisting of the Nano S or X SDK, and two compilers)
 
 ## Things to know
 

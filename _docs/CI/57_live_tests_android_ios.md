@@ -27,7 +27,7 @@ layout: doc_ci
 
 ## Preliminary steps (common to Android and iOS)
 
-1.  Build the relevant version of `live-common` and `yalc publish` it (to do it automatically, you can use the `setup_live.py` tool from [glethuillier/test-environments](https://github.com/glethuillier/test-environments) (<i>e.g.</i> `$ python3 setup_live.py -c polkadot`)
+1.  Build the relevant version of `live-common` and `yalc publish`
 
 2.  Clone or pull [Ledger-Coin-Integration-team/ledger-live-mobile](https://github.com/Ledger-Coin-Integration-team/ledger-live-mobile) **and checkout the relevant branch**
 

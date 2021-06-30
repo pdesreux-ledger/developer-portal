@@ -2,7 +2,7 @@
 layout: page
 width: expand
 hero:
-    title: Ledger Developer Portal 
+    title: Ledger Developer Portal
     subtitle:
          For Third-party Foundations and blockchain teams who want to develop their <br> currency and services in the Desktop and Mobile versions of Ledger Live
     image: /images/GEN/portal-intro.png
