@@ -4,10 +4,3 @@
   desc: Emulate Nano devices, on standard desktop computers, without any hardware device
   icon: cog
   doc: SP/index
-
-- title: Python Loader
-  desc: Python tools to communicate with Nano S and Nano X and manage applications life cycle
-  icon: settings
-  doc: PL/01_readme
-
-
