@@ -43,7 +43,7 @@ Attestation is a process used by Ledger devices to prove that they are genuine L
 <img src="../images/wallet_not_genuine.png" class="align-center" />
 </figure>
 
-Ledger devices are protected from interdiction attacks (being tampered with while en route from Ledger's warehouses to your home) due to anti-tampering technology built into the firmware. Using attestation, the authenticity of the device is verified in software every time you plug it into one of the Ledger Chrome applications.
+Ledger devices are protected from interdiction attacks (being tampered with while en route from Ledger's warehouses to your home) due to anti-tampering technology built into the firmware. Using attestation, the authenticity of the device is verified in software every time you plug it into one of the Ledger Live applications.
 
 When all Ledger devices are provisioned in the factory, they first generate a unique `Device` public-private keypair. The Device's public key is then signed by Ledger's `Issuer` key to create an Issuer Certificate which is stored in the device. This certificate is a digital seal of authenticity of the Ledger device. By providing the Device's public key and Issuer Certificate, the device can prove that it is a genuine Ledger device.
 
