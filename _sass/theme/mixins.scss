@@ -520,6 +520,18 @@
           z-index: 10;
     }
 
+    .sidebar-toc {
+      position: fixed;
+      top: 160px;
+      width:300px;
+      background: white;
+      border-radius: 20px;
+      padding-top:20px;
+      padding-right:18px;
+      > ul li {list-style: none;}
+    }
+
+
     // @media (min-width: $breakpoint-large) {
     //     .sidebar-fixed-width {
     //         width: $docs-sidebar-width-l;
