@@ -12,7 +12,7 @@ en:
   search_placeholder:         "Search for answers"
   search_no_results:          "No results found"
   mobile_nav_docs:            "Docs"
-  mobile_nav_site:            "Menu"
+  mobile_nav_site:            ""
   contact_name:               "Your Name"
   contact_email:              "Your Email"
   contact_subject:            "Please put me on the right channel for:"

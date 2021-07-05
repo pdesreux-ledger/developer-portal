@@ -520,15 +520,15 @@
           z-index: 10;
     }
 
-    @media (min-width: $breakpoint-large) {
-        .sidebar-fixed-width {
-            width: $docs-sidebar-width-l;
-        }
-        .sidebar-docs {
-            width: $docs-sidebar-width-l - $global-large-gutter;
-            padding-right: $global-large-gutter;
-        }
-    }
+    // @media (min-width: $breakpoint-large) {
+    //     .sidebar-fixed-width {
+    //         width: $docs-sidebar-width-l;
+    //     }
+    //     .sidebar-docs {
+    //         width: $docs-sidebar-width-l - $global-large-gutter;
+    //         padding-right: $global-large-gutter;
+    //     }
+    // }
 
     ul.doc-nav {
         padding-left: 14px;
