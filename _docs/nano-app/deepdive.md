@@ -32,47 +32,13 @@ Developing and / or compiling BOLOS applications requires the SDK matching the a
 
 ## Setting up the Toolchain
 
-The Makefiles used by our BOLOS applications look for gcc and clang installations using the `PATH` environment variable.
+[Ledger App Builder](https://github.com/LedgerHQ/ledger-app-builder) is a container image which contains all dependencies to compile an application for Nano S/X. Please follow the instructions in the README to download it.
 
-If you don't want to install specific versions of clang and gcc directly on your system, simply prepend their location in your `PATH` environment variable.
-
-``` bash
-## GCC
-PATH=~/bolos-devenv/gcc-arm-none-eabi-10-2020-q4-major-linux/bin:$PATH
-
-## Clang
-PATH=~/bolos-devenv/clang+llvm-9.0.0-x86_64-linux-gnu-ubuntu-18.04/bin:$PATH
-```
-
-Cross compilation headers are required and provided within the gcc-multilib and g++-multilib packages. To install them on a debian system:
-
-``` bash
-sudo apt install gcc-multilib g++-multilib
-```
+## Loading Apps on a Device
 
 If you wish to load applications on your device, you will also need to add the appropriate `udev` rules.
 
 ``` bash
 wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash
 ```
-
-## Setting up the SDK
-
-Now that you have your toolchain set up, you need to download / clone the SDK for the appropriate Ledger device you're working with. Make sure you checkout the tag matching your firmware version.
-
-Ledger Nano S SDK: <https://github.com/LedgerHQ/nanos-secure-sdk>
-
-Ledger Nano X SDK: <https://github.com/LedgerHQ/nanox-secure-sdk>
-
-Finally, link the environment variable `BOLOS_SDK` to the SDK you downloaded.
-
-``` bash
-BOLOS_SDK='/path/to/sdk/'
-```
-
-When using the Makefile for our BOLOS apps, the Makefile will use the contents of the SDK to determine your target device ID (Ledger Nano S or X). Even if you aren't building an app, loading an app with the Makefile still requires you to have the SDK for the appropriate device linked to by `BOLOS_SDK`.
-
-## Python Loader
-
-Most apps use the Python loader, a Ledger-made Python library to communicate with Ledger devices. You can install it with `pip install ledgerblue`
 
