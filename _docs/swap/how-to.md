@@ -84,8 +84,8 @@ Explanation of each fields:
 - `payout_extra_id`: eventual memo for the payment (stellar payment, for instance)
 - `currency_from`: currency that the client wants to swap
 - `currency_to`: currency that the client wants to receive from his swap
-- `amount_to_provider`: amount of Currency_from that the provider expects to receive from client
-- `amount_to_wallet`: amount of Currency_to that the provider agrees to send to client in exchange from Amount_to_provider
+- `amount_to_provider`: amount of `currency_from` that the provider expects to receive from client
+- `amount_to_wallet`: amount of `currency_to` that the provider agrees to send to the client in exchange from `amount_to_provider`. This amount must also include the network fees that the provider will pay to send the crypto to the user.
 - `device_transaction_id`: swap transaction nonce provided by client at initialization
 
 Amounts must be in the lowest unit in the field `coefficient` with its `exponent`.<br>

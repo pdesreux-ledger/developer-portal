@@ -40,5 +40,5 @@ Here is the list of all the APIs provided
 
 You may find these libraries on the GitHub repositories written by the community. For example Cardano can be found here [Cardano JS library](https://github.com/cardano-foundation/ledgerjs-hw-app-cardano).
 
-We currently do not have a list of all community-developed Nano APIs. If you wish to contribute yours, please use [this form](https://developers.ledger.com/contribution/).
+We currently do not have a list of all community-developed Nano APIs. If you wish to contribute yours, please use the comment box at the bottom of this page.
 

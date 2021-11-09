@@ -20,9 +20,9 @@
                 {% endif %}
 
                 {% if link.button %}
-                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-{{ link.button }}" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></div></li>
+                    <li><div class="uk-navbar-item"><a class="uk-button uk-button-{{ link.button }}" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer" {% endif %}>{{ link.title }}</a></div></li>
                 {% else %}
-                    <li{{ current }}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
+                    <li{{ current }}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer" {% endif %}>{{ link.title }}</a></li>
                 {% endif %}
             {% endfor %}
         </ul>

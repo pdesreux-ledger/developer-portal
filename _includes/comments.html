@@ -1,29 +1,58 @@
 <div>
-  <h5>What would you like to see here?</h5>
+  <h5>How would you improve this page?</h5>
   <form id="contact-form" action="https://api.staticforms.xyz/submit" method="post">
     <input type="hidden" id="accessKey" name="accessKey" value="774fe280-f773-4a57-9f77-e7c935ed368b">
     <textarea id="comment" name="$comment" placeholder="Comment" required="required" class="comment-box"></textarea>
     <input type="hidden" id="page" name="$page" value="{{ page.title }}">
     <input type="hidden" id="category" name="$category" value="{{ page.category }}">
-    <input type="submit" value="Submit" class="uk-button uk-button-primary uk-button-default uk-button-small uk-margin-small-top"/>
+    <br>
+    <br>
+    <input type="checkbox" id="participation" name="$participation"><label class="comment-disclaimer" for="checkbox">Contributors will be chosen randomly to receive rewards. Check this box to participate.</label>
+    <br>
+    <div id="submit">
+      <input type="submit" value="Submit" class="uk-button uk-button-primary uk-button-default uk-button-small uk-margin-small-top"/>
+    </div>
 </form>
 </div>
 
 
 <script type="text/javascript">
 
+document.getElementById("participation").addEventListener('change', function() {
+  if (this.checked) {
+    var submit = document.getElementById('submit');
+    var input = document.createElement("input");
+                input.type = "text";
+                input.name = "$mail";
+                input.id = "mail";
+                input.placeholder="Please enter your email";
+                input.required = "required";
+    submit.parentNode.insertBefore(input, submit);
+  } else {
+    var mailInput = document.getElementById('mail');
+    mailInput.remove();
+  }
+});
+
   document.getElementById("contact-form").addEventListener("submit", function(e){
     e.preventDefault();
+
     var form = document.getElementById('contact-form');
     form.style.display = 'none';
     var processing = document.createElement('span');
     processing.appendChild(document.createTextNode('Thank you for your contribution!'));
     form.parentNode.insertBefore(processing, form);
 
+    if (document.getElementById("mail")){
+      var mail = document.getElementById("mail").value;
+    } else {
+      var mail = "none";
+    }
+
     fetch('https://api.staticforms.xyz/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify({ "accessKey": document.getElementById("accessKey").value, "$comment": document.getElementById("comment").value, "$page": document.getElementById("page").value, "$category": document.getElementById("category").value })
+        body: JSON.stringify({ "accessKey": document.getElementById("accessKey").value, "$comment": document.getElementById("comment").value, "$page": document.getElementById("page").value, "$category": document.getElementById("category").value, "$mail": mail, "$participation": document.getElementById("participation").checked })
     })
   });
   

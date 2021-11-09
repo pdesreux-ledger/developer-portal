@@ -80,5 +80,5 @@ Other languages are possible (no details here).
 
 
 ## Contribute
-If you want to improve the documentation you can [use the contribution form](https://developers.ledger.com/contribution/) or make suggestions on the [Ledger's Developer Slack](https://ledger-dev.slack.com)
+If you want to improve the documentation you can the comment box at the bottom of each page or make suggestions on the [Ledger's Developer Slack](https://ledger-dev.slack.com)
 

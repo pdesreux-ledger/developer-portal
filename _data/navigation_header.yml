@@ -23,9 +23,6 @@ left:
     - title: Emulator
       url: /docs/speculos/installation/build
 
-  - title: Contribution
-    url: /contribution
-
   - title: Changelog
     url: /changelog-timeline
 

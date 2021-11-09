@@ -569,6 +569,11 @@
         padding: 12px 20px;
     }
 
+    .comment-disclaimer {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
     @media (max-width: 768px) {
       /* Do not display AnchorJS icon on less than 768px view point */
       .anchorjs-link {
